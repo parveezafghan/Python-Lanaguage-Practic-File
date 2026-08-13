@@ -1,0 +1,22 @@
+name="parveez"
+address="jalalbad"
+
+class first_class():
+
+    name="king"
+    address="konar"
+
+    def method(self,name,address):
+        print("this is mehtod local variable :",name,address)
+        print("this is class local varialbe :",self.name,self.address)
+        print("this is Gobals variable :",globals()['name'],globals()['address'])
+
+
+
+
+
+
+obj=first_class
+
+
+obj.method("khan","AFghanistan")
