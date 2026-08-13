@@ -21,6 +21,18 @@ for x in range(15):
                 '''
 
 
+total=0
+for x in range(70):
+    print(x)
+
+    total=total+x
+
+print(total)
 
 
+for  x in range(20):
+    print(x*2)
+    
 
+for x in range(1,20,2):
+    print(x)

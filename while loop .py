@@ -15,12 +15,13 @@ while True:
             print("you could,t find")
             break
 '''
-'''
+
 n=7
 i=1
 
 while i<=10:
     print(f"{n}* {i}={n*i}")
+
     i+=1
 
 
@@ -181,11 +182,9 @@ while n<=100:
     print("i love you my country",n)
     n=n+1
 
-'''
+while True:
+    name=input("Enter the name :")
+    age=int(input("Enter the age"))
 
-
-
-for x in range(1,100):
-    if(x==50):
-        print(x)
-        break
+    print(f"My name is {name} and My age is {age} years old")
+    
